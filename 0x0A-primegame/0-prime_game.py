@@ -8,6 +8,8 @@ def isWinner(x, nums):
     """
     Determines the winner of prime game
     """
+    if x < 1 or not nums:
+        return None
 
     p1_wins = 0
     p2_wins = 0
